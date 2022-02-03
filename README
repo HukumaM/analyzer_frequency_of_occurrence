@@ -1,0 +1,18 @@
+The program is useful in cases when you need to break
+data into categoriesand collect relevant statistics.
+
+At startup, all the data that the user passes through
+the standard input stream or through a text file is read.
+
+The resulting text is divided into words to determine
+the frequency of occurrence of each word. After that,
+it is placed in the standard output stream, or in a
+text file specified at startup.
+
+The output data format is a table of the form:
+
+┌───────────┬────────────────┬────────────────────┐
+│   index   │    frequency   │        word        │
+├───────────┼────────────────┼────────────────────┘
+| ...       | ...            | ...
+└───────────┴────────────────┴────────────────────┘
