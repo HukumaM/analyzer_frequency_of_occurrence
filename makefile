@@ -1,13 +1,13 @@
-CXX		  			:= g++
-CXX_FLAGS 			:= -Wall -Wextra -pedantic -std=c++17 -O2 -s
-CXX_DEBUG_FLAGS		:= -Wall -Wextra -pedantic -std=c++17 -O0 -ggdb3
+CXX                 := g++
+CXX_FLAGS           := -Wall -Wextra -pedantic -std=c++17 -O2 -s
+CXX_DEBUG_FLAGS     := -Wall -Wextra -pedantic -std=c++17 -O0 -ggdb3
 
-BIN					:= bin
-SRC					:= src
-INCLUDE				:= include
+BIN                 := bin
+SRC                 := src
+INCLUDE             := include
 
-EXECUTABLE			:= analyzer
-DEBUG_EXECUTABLE 	:= debug_analyzer
+EXECUTABLE          := analyzer
+DEBUG_EXECUTABLE    := debug_analyzer
 
 .PHONY: all
 all: $(BIN)/$(EXECUTABLE)
